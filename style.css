@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    --deault-delay: 1;
+}
+
 body {
     display: grid;
     place-items: center;
@@ -35,8 +39,22 @@ body {
 
 .animated {
     animation: toupeira .7s;
-    animation-delay: 2s;
-    animation-iteration-count: 3;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+
+}
+
+.animated2 {
+    animation: toupeira .7s;
+    animation-delay: 10s;
+    animation-iteration-count: 1;
+
+}
+
+.animated3 {
+    animation: toupeira .7s;
+    animation-delay: 7s;
+    animation-iteration-count: 1;
 
 }
 
